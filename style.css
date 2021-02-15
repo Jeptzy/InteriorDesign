@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -28,7 +28,7 @@
 
 /* Base */
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: var(--normalfont);
 }
 
@@ -239,6 +239,16 @@ ul a:hover {
   font-size: 1.3rem;
 }
 
+.home_text .btn_shop, .container_section_about .section_wrapper .about_method .btn_shop, .container_section_contact .contact_title .btn_shop {
+  padding: 15px 25px;
+  margin-top: 5px;
+  background-color: crimson;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+
 .home_text h2, .container_section_about .section_wrapper .about_method h2, .container_section_contact .contact_title h2 {
   color: var(--primary-color);
 }
@@ -307,7 +317,7 @@ ul a:hover {
 
 .container_section_about .section_wrapper .about_method {
   font-size: var(--normalfont);
-  margin-top: 1%;
+  margin-top: 4%;
 }
 
 .testimonies {
